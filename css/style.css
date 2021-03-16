@@ -1,0 +1,61 @@
+*{
+    margin: 0; /*Espaçamento Externo*/
+    padding: 0; /*Espaçamento Interno*/
+}
+/*.objeto1{
+    background: red;
+    color: white;
+    /*width: 50%; Largura*/
+    /*height: 150px; Altura
+    padding: 20px; /*1ª Topo, 2ª Direita, 3ª Base, 4ª Esquerda
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial;
+    font-style: italic;
+}*/
+.header-site{
+    height: 500px;
+    background-image: url(../img/office.jpg);
+    background-position: center top; /*posição cebtralizada ao topo*/
+    background-repeat: no-repeat; /*Não repetir imagem*/
+    background-size: cover; /* oculpar toda area de marcação*/
+    background-attachment: fixed;
+}
+.header-site div{
+    padding-top: 180px;
+    text-align: center;
+}
+.header-site h1{
+    color: #ccc;
+    font: 50px Arial;
+    font-weight: 900;
+}
+.header-site p{
+    color: #fff;
+    font: 16px Arial;
+    padding-bottom: 30px;
+}
+a.botao{
+    color: #000;
+    background: #fff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    font: 18px Arial;
+}
+a.botao:hover{
+    background: rgba(255, 255, 255, 0.6);
+}
+.box,.box-conteudo{
+    width: 80%;
+    margin: 0 auto;
+}
+.box-conteudo{
+    padding: 100px 0;
+}
+.box-conteudo h1{
+    font: 40px Arial;
+    text-align: center;
+    padding-bottom: 50px;
+}
